@@ -11,6 +11,9 @@ import {
   goalpc1,
   goalpc2,
   goalpc3,
+  phonePc,
+  emailPc,
+  socialPc,
 } from "../assets";
 
 export const navLinks = [
@@ -75,5 +78,22 @@ export const carouselpc = [
     image: goalpc3,
     title: "المساهمة بطريقة اخرى",
     text: "سواء بالدعم المالي , اللوجيستي , شبكة العلاقات والمعارف , الشهرة , شراكات مع المجتمع , … الخ",
+  },
+];
+export const contactInfo = [
+  {
+    img: phonePc,
+    info: "0780502844 / 0794515934",
+    title: "الهاتف",
+  },
+  {
+    img: emailPc,
+    info: "Nosra07@gmail.com",
+    title: "الإيمايل",
+  },
+  {
+    img: socialPc,
+    info: "ddd",
+    title: "الهاتف",
   },
 ];

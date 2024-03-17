@@ -6,7 +6,7 @@ import ThemTogglingpc from "../components/ThemTogglingpc";
 const Header = () => {
   const { openSidebar, isSidebarOpen } = useGlobalContext();
   return (
-    <header className="px-10  md:px-20 bg-base-100 w-full h-auto rounded-b-xl absolute z-20">
+    <header className="px-10  md:px-20 bg-base-100 w-full h-auto rounded-b-xl absolute z-20 ">
       {isSidebarOpen ? (
         <div>
           <Sidebar className="text-xl" />

@@ -16,7 +16,10 @@ import goalpc1 from "./goalpc1.png";
 import goalpc2 from "./goalpc2.png";
 import goalpc3 from "./goalpc3.png";
 import copyicon from "./copyicon.png";
-
+import phone from "./phone.png";
+import phonePc from "./phone-pc.svg";
+import emailPc from "./emialPc.svg";
+import socialPc from "./social.svg";
 export {
   logo,
   arabic,
@@ -36,4 +39,8 @@ export {
   goalpc2,
   goalpc3,
   copyicon,
+  phone,
+  phonePc,
+  emailPc,
+  socialPc,
 };
